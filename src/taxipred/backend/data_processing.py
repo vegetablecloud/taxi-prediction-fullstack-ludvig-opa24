@@ -70,7 +70,7 @@ def prepare_features(input_data: UserInput) -> pd.DataFrame:
     Retrives user input in a pydantic model and convertes it to a dataframe our Ml-model can understand.
     """
     data = input_data.model_dump()
-
+    
     trip_info = retrieve_google_direction_results(input_data=input_data)
 
     weather = retrieve_weather_data(input_data=input_data)
