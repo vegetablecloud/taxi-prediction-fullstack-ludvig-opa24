@@ -1,0 +1,455 @@
+{
+    "bounds": {
+        "northeast": {
+            "lat": 57.7199258,
+            "lng": 12.8693611
+        },
+        "southwest": {
+            "lat": 57.661115,
+            "lng": 11.929613
+        }
+    },
+    "copyrights": "Powered by Google, \u00a92025 Google",
+    "legs": [
+        {
+            "distance": {
+                "text": "66.4 km",
+                "value": 66362
+            },
+            "duration": {
+                "text": "47 mins",
+                "value": 2846
+            },
+            "duration_in_traffic": {
+                "text": "52 mins",
+                "value": 3101
+            },
+            "end_address": "V\u00e4rmlandsgatan 2, 413 29 G\u00f6teborg, Sweden",
+            "end_location": {
+                "lat": 57.70031650000001,
+                "lng": 11.9431225
+            },
+            "start_address": "Dunderbergsv\u00e4gen 2, 518 40 Sj\u00f6marken, Sweden",
+            "start_location": {
+                "lat": 57.7154895,
+                "lng": 12.8461446
+            },
+            "steps": [
+                {
+                    "distance": {
+                        "text": "20 m",
+                        "value": 20
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 3
+                    },
+                    "end_location": {
+                        "lat": 57.71531,
+                        "lng": 12.8460799
+                    },
+                    "html_instructions": "Head <b>south</b> on <b>Dunderbergsv\u00e4gen</b> toward <b>G\u00f6teborgsv\u00e4gen</b>",
+                    "polyline": {
+                        "points": "ypg_Jk_lmAb@J"
+                    },
+                    "start_location": {
+                        "lat": 57.7154895,
+                        "lng": 12.8461446
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "1.3 km",
+                        "value": 1338
+                    },
+                    "duration": {
+                        "text": "3 mins",
+                        "value": 159
+                    },
+                    "end_location": {
+                        "lat": 57.7152183,
+                        "lng": 12.8668773
+                    },
+                    "html_instructions": "Turn <b>left</b> at the 1st cross street onto <b>G\u00f6teborgsv\u00e4gen</b>",
+                    "maneuver": "turn-left",
+                    "polyline": {
+                        "points": "uog_J__lmAHBFsACQ@W@UDaADaAHeA@SHkAV{CLaBFw@?C@EFo@@ILwAHiANmALoA?ALcAHu@LaAL}@@G?EJo@pBoNNkADUD[BOBYHi@Fk@Fs@@[@IBc@Bm@@i@@w@@a@?c@?IA_@?i@Ae@AW?IC_@Cg@Ck@Ec@Eg@Gg@E_@Ee@Kk@G[AEGa@WcACKw@aDYkAWeAWkAGUCQUcAc@sBMs@a@uBq@{D"
+                    },
+                    "start_location": {
+                        "lat": 57.71531,
+                        "lng": 12.8460799
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.1 km",
+                        "value": 126
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 10
+                    },
+                    "end_location": {
+                        "lat": 57.7147063,
+                        "lng": 12.8686216
+                    },
+                    "html_instructions": "Keep <b>right</b> to continue toward <b>O 1757</b>",
+                    "maneuver": "keep-right",
+                    "polyline": {
+                        "points": "cog_J_apmA?[AW?i@B_@B]FYHa@L]P[Xg@Ra@"
+                    },
+                    "start_location": {
+                        "lat": 57.7152183,
+                        "lng": 12.8668773
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.3 km",
+                        "value": 342
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 25
+                    },
+                    "end_location": {
+                        "lat": 57.7118003,
+                        "lng": 12.8686847
+                    },
+                    "html_instructions": "Continue onto <b>O 1757</b>",
+                    "polyline": {
+                        "points": "}kg_J{kpmADEPS\\[BCN]HILOLMPINEDAPEZBR?b@Ab@DZHh@HF@ZFb@F@?`@Fh@NF?FBJHFHb@l@"
+                    },
+                    "start_location": {
+                        "lat": 57.7147063,
+                        "lng": 12.8686216
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.3 km",
+                        "value": 338
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 19
+                    },
+                    "end_location": {
+                        "lat": 57.71113519999999,
+                        "lng": 12.8631616
+                    },
+                    "html_instructions": "At <b>Viaredsmotet</b>, take the <b>1st</b> exit onto the <b>Route 40</b>/<wbr/><b>Route 27</b> ramp to <b>G\u00f6teborg</b>",
+                    "maneuver": "roundabout-right",
+                    "polyline": {
+                        "points": "wyf_JglpmAFj@Dr@Hh@N|@Dj@B\\@NB\\@VHxAF~AD`A@JFfBDx@Bl@FdBFzA@j@?@?BJj@"
+                    },
+                    "start_location": {
+                        "lat": 57.7118003,
+                        "lng": 12.8686847
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "54.0 km",
+                        "value": 54022
+                    },
+                    "duration": {
+                        "text": "32 mins",
+                        "value": 1938
+                    },
+                    "end_location": {
+                        "lat": 57.68767740000001,
+                        "lng": 12.0079972
+                    },
+                    "html_instructions": "Merge onto <b>Route 40</b>",
+                    "maneuver": "merge",
+                    "polyline": {
+                        "points": "suf_JwiomAFfEB~A@pA@j@@b@@j@?f@@f@@d@@jAD~B?r@@L?LD|C@f@@h@?h@@`@@f@@j@@t@@Z@f@@f@@b@?FBfA?NB\\@\\@p@DfAB^@\\@VLtBLlBPxBDf@Dd@Fd@?FD^Fd@D^@FDb@Ff@Fd@VjBPjABNDTPfA@FF\\Hd@BLDRFZJj@J`@RdAJb@J`@`@fBFPNj@Jb@XbANd@HZh@|AJ^N^JZL\\N`@L\\N^L\\N\\L\\Zt@P`@FLDJNZLZNZN\\JT@BNZNZDJHP\\t@P\\LZPZLXHRR^N\\DJHN\\t@NX\\t@FNXj@JTBDLXP^LXN\\BBFN?@JRbA~BLXN\\jAlCFPJTn@|A^`A^|@Zv@N`@N`@Xp@HTDJPb@Ph@N^Vn@JXFNBJ@@L\\L\\Zz@Xx@HTBHN`@L\\BHTn@X|@JXNb@Rl@DLNb@L`@Z|@X|@X|@DLDPX|@L^HX@@L`@Tv@Nd@J^L`@X`AFRRn@BLPl@Lb@L`@J^XdAHXXdAFPZjAb@bBJ`@Tv@T~@FPDNJd@d@hBBHFPNp@VdAd@rBRz@Pp@DR\\xAf@zB\\~AFVJd@ZzAvA`H\\jBH\\Hb@\\jBH^Lt@BNRdAHd@P`APfAP`A@FRfAFd@@FJl@RdA@LDRHh@DPBRHf@FZHd@F`@Hf@XbBBNV|ALt@Nx@Lr@Hf@Jh@BLPfAz@tEH`@Nt@Lp@Hb@RdAH`@ThATdAFXH`@|@dEVlANn@ZvAXjAFZJ`@Rx@d@nBt@zCn@jCz@hDx@~CrBjIFT~ApGh@tBvAzFh@tBp@vC`@bB`@bB\\~A`@nBJd@Jb@f@dCd@`C@H\\hBNx@TpARjAHd@TpAJp@ZhBPlAj@vDl@fEZ~BXvB^vCHr@@HBTHn@\\zCFr@Jv@?DJ~@ZzCPbBHz@LjADd@JbABZFv@BTTlCNdBPjB@LF|@JrAVdERbDHzAF`AFtADn@FnADlAHtBFlADnABjADpADlAH~C?b@Bf@@h@@h@@lABjA@f@@h@?f@BjA?f@?D@`@?^@bA@x@@pA?d@@lA?f@@nA?lA?pA?d@?nA?f@?vB?lA?f@?lA?@?`D?rB@dE?lA@pA?d@BvB@vA?^HlFHrE@\\?DBfABv@?RBf@@f@@`@?D@b@@X@NDjA?N@VBf@DlABf@@P@R@f@Bf@Bd@Bf@Bf@Bd@Bd@Bf@Bd@Bf@@V@LBf@Bd@Bf@Df@Bd@Bf@Db@Bf@B`@@BBd@?DD`@B^?DDf@Dd@Bb@@HB\\Bd@Dd@Df@Dd@Df@Bb@?@Dd@Df@Db@Bd@Dh@NnBDd@Bf@@NBTBd@Bf@Dd@Bb@Bf@Df@Bf@Bb@Bd@Df@Bf@Bd@Bf@Bf@@X@JBd@Bf@DlABd@Bf@Bf@@d@Bf@Bf@@d@Bf@@d@Br@@ZBd@@f@@f@Bd@@f@DnA@f@@d@@Z?H@h@@d@@f@@f@@f@@d@@f@@f@@d@?R@z@@f@?f@@d@@f@?f@@b@?j@B~B?\\?h@?d@@f@?f@?d@?f@?f@?f@?f@?f@?f@?d@?h@?d@?f@?f@ArB?rA?d@?h@?b@?tB?rA@d@?f@?f@@f@?f@@f@?d@@T?P@f@?f@@d@@f@@h@?f@DbB?P@f@Bd@@f@@f@@f@Bd@@h@@d@Bd@HtB@f@FnADlABh@Bf@Bd@Bf@Bf@Bd@Df@@X@HBf@B`@Dj@Bb@Df@Bd@Df@Bd@Dd@Dd@Bd@Dd@JlADd@Bd@Fd@Dd@Df@Db@Df@Dd@Fd@Dd@Db@Fd@Dd@Fb@Dd@Fd@Fd@Dd@Fb@Fd@Fb@Fd@Dd@Fb@Fb@Fd@Hb@Fd@F`@Fb@Fd@F^Hj@F`@Hb@PfAHd@Fb@Hb@Hb@H`@Fb@F^@BH`@Fb@Hb@RdAFb@Hd@Hb@F`@Lx@BJHf@F`@Fb@Hb@Fd@VjBFd@Hd@Fb@Ff@D^Fd@Fd@Db@Fd@D\\NnALlADb@Fd@Db@Df@D^J~@LtAJnAH~@Ft@Dp@LjBHjAHnAJpBHnAHlBHnBFfAJfC@NDt@Br@?HLzBBr@Fz@Dx@Bb@FjAHbADx@D`@HnAFx@LvA?@Df@Dd@JhAJfAFl@LnAJz@NrALdALdAD\\BTFf@DXNlANbANdATzATzAPdATnAN~@Pz@Jn@P`AJh@PbARbARhARfARfAHd@P`APfARdAPhAPfAPfABTHf@Jn@Ff@Hl@RxANdANvAL`APrAB\\Ff@Hp@J`ARtBPfBPpBLvANfBJlADb@Dj@HfAHhARnCN`CBf@Dh@BXFjAB\\D|@FdABh@HpADbAD`A@PFnAB`@@f@Bh@FjA@h@DlAFdBF~A@`@DpABpABh@DpBDtBDzBBhA@nABjA@pA@rA@lABtB?rA@xB@rB?xB?nA?xCC`DAvBAlAAdAAvA?l@AVClB?HAx@C|@?DA`ACt@?JC`ACpAAt@C~@EfAAt@EdAGnBEtAEjAGpAEjAANC|@GlAGjAIrBE`AAHM`DIvBEjAEpA?NC~@?@EpBAf@Aj@A`@ArAApAAfAAn@?fA?dAAtA@p@?bA?f@@p@?`@@bA@|ABjA@tADlBBx@DbBDtADjADx@@^Dz@Bn@Bb@HpAFhAFlADl@F|@Fx@Dd@F|@Dd@Fz@Fh@Dn@Fj@Ff@Db@Dj@Jz@Fl@Db@F`@Fj@Fd@DZFl@DXh@zDPnADXHb@?FHf@Hb@F`@Jh@F^H`@Hb@F\\Hf@H`@RhAHb@H`@Hb@F`@Hb@H`@Hb@Fb@H`@FZ@JF\\F\\Fb@Hd@H`@F^Hf@Hf@DXHj@Hh@Fb@DTD`@Lv@Fd@Fb@D`@Hf@Db@Fb@Fb@Fd@BX@HFf@Fb@Db@NzATjBJdALzAN|ABN@LNhBNhB@RPxB@FBb@B`@Dl@HjADz@@LBZ?HBP@^B\\FlAF`AFvA@N@XFjA?HD|@?BD`A@LFnBBj@@VBv@HdC@h@D`ABj@@d@@b@Dx@Bj@Bx@B^?DHjBFhA?HHpALrB@RJdBDf@F`AB`@HjALzAHfAP~BFf@Dl@Dd@Ff@Dd@Dd@Fh@JfAFd@Df@NpADd@Fb@RbBVtBTdBn@zEVnBh@bEl@~E^rCPpAPpAZbC~@hHpA|JHp@Hn@Hn@LdAZvCPjBLvAJfANrBNtBHjABf@BXHzAFlAFnADnAFlAFxBDjAF|CD~C@hA@l@?T@`B?fB@N?p@?\\AvA?h@?h@Ar@A|@CnBCxACjBGxBGtBItBItBIfBMbCMrBMrBKnAOrBObBGv@MpAWnCYtCUpBKjAMjAUpBUnBYxBSdBIt@MbA_@rCg@pDG^QrAW`B?DW`BSrAYfBSpAi@|CUpAW|ASjAWrAOz@?@Q~@EVEZUjASpACJMt@Id@Id@mAvGy@rEq@pDs@rDABq@hDm@|CCL_@hBSdAI^UfAIb@Qz@[vAUjAOv@Kb@ETGXOt@S`ACHOx@ADEPAFCFCPCLCHQ~@Kb@I`@CPETI\\I^If@Ib@Kb@SfAI`@ERCPCNEPSfASdAIb@AFG\\]hBIb@AFQ|@Mx@Mp@Id@Id@SfAIb@?D[dBCPGX[nBYdBQdAOhAG`@AHG^Gd@OhAGd@Gd@CVCLEb@EXAJGd@Ed@Gh@MjAGd@Ef@ABE`@KjAGj@CZEh@Gj@Ed@C\\AJC`@IdAOxBGn@Cf@Eh@GnACb@Cj@AFAZEj@Ad@Ch@Cf@Cf@Cd@A^?FCf@Ab@?DCd@A`@?FCf@Af@Af@Af@Af@Ch@?BAb@Af@?f@A^An@CxB?f@Af@?h@?f@AZ?^?t@?l@?^?DAf@@j@?f@?jA@xA@dB?p@@p@@jA@f@@h@@nA@x@B|@?h@@d@?Z@D?F?f@@f@@pA@pA@v@?|@?@@fA?H?fA?d@?d@?B?h@Ax@?|@Ad@?j@E~CAd@AlACn@Af@Af@Az@ALAd@Ah@Cv@EbACb@Af@Cr@GhACh@E~@Cl@AFEv@Ez@Gt@AZGx@WnDAFC\\Ef@Ef@Eb@KlAKlACZIp@Gr@Eb@QfBGb@AFEb@Gb@MlAGf@S~AU|BQdBUxBKdAEj@C`@Gh@IjAG|@Gv@IrAItAC`@IlAIjBCn@Ch@Cj@EjACj@CjAEpAClAA\\Ar@Ad@Af@Aj@Af@CzB?pAA`AAvA?pA?N?`A@vA?dA@j@@rA@nABrA?@?DBbABpABbA@j@?DBf@DpA@j@FlA?NDp@?N@D@\\Bd@Bf@Bd@Bh@Bb@B`@Dl@Dr@@ZDf@Bd@@JBZDb@Dj@B`@Dd@Dj@Dd@Db@D`@Dh@Db@Fh@Db@Dd@Ff@D`@Fb@Fh@Fh@D^Fd@D^BTHh@Jr@PvALx@PhAFd@F\\XpBZpBXlB?@Lz@@JHj@Lx@NfANhAJt@NhAFh@NdA@JHv@D\\Hl@Db@Fb@Df@Fd@Db@LjALnADf@Ff@Db@D`@?DDf@BP@PDb@@JFz@Fh@HnAPpBHnAB^Dh@Bd@B`@Df@@V@PBb@Dt@BZ@F@\\@T@RBb@Df@Bf@Bf@Bf@Bh@@f@B`@?DBb@@V@N@f@@H@^@f@Bd@@TBx@DpABnA@b@@JD~BB`ABnAD~B@fA@Z@bA?XBnB@xB?lC@X?~A?tB@vA?pA?~@?N@lA@hB?RBnB@lA@nA@f@@`ABv@@n@DpAFxB@ZBr@FlADnAFrABb@B`@Bb@Dn@@ZFz@@FDv@Df@Bf@Dd@Df@Bd@Df@Ff@Dd@Df@Df@Db@Dd@Ff@Dd@Dd@Ff@Db@Ff@Db@Ff@Fd@Fd@NhA^vC^hCh@hD|@dGL|@Fd@Fb@Hd@Ff@Fd@Fd@Db@Fd@Fd@Fd@Df@Fd@Df@Fd@Dd@JjADf@@FB\\Db@Dh@Dd@Dh@Bd@Dd@Dl@Bf@Bf@Df@Bf@Bd@Bf@Bh@Bf@Bf@Bf@Bf@@d@Bh@@h@Bd@@j@Bf@@f@@h@@f@@f@@d@@~@BdB@pA?f@?h@@f@?f@?h@?f@?h@?D?`@?^?FAf@?h@?f@Ah@?f@ArAAf@?`@CpAAp@Ap@?d@ChAApAChACbA?PCvAGlBCjACnAAFI`DCr@ChAInB?DElAIvB?@M|CEn@MvCK|BCb@KrBABKnBEt@G~@Ep@G~@Er@IhAUdDOtB?BOnBQnBQxBKhAKlAMlAUrCEb@Ed@MjAEf@?@K`A?FGh@Ed@Ed@Ed@Gf@[fD]rD[|CYzCMjAMrAMlAMhAE`@MnAe@xEGp@Gd@Gf@E`@KhAIj@SnBGj@MhAKjAQ|AGf@E`@AHWzBMnAOjAEf@EXW|BMfAm@rFKt@OpAOrAOnAw@vG?BOjAGf@Gh@MbAMhAGd@OfAGf@Gd@UpBGb@E`@Ij@MfAGd@Gf@Gb@Gb@Gd@EZAHGd@In@EZSzAALWlBADGd@OnAOhAG`@EX[hCEVQlAE^Gd@If@E\\Ij@CPWnBEZG`@ANGZIl@E\\Ip@If@Gj@c@~Ck@tEWnBUnBWnBMbAOrAGh@Kv@Gj@Gd@CTANOlAMjACRCPMhAGb@K`AIp@KfAGd@MjAEf@Gb@Ed@Gh@E^YxCGd@Ef@MhAEb@MnAEf@Gd@Ed@Ed@Gf@KhAQrBE^Ej@Gb@Eh@Eb@Ed@Eb@Ef@Ef@IfAQzBI`AG|@I`AItAMjBKjBGnAOxCGnAGbA?LCr@E~@ElAEbAEdAC~@GpBEnBCrACbAExACrACpAE~@CtAEfAExAG~ACh@En@?DCh@ANCd@AR?NC^Eh@Cd@?D?DCXCl@Ef@Cd@CVEz@Eb@Cb@Ed@ANOrBKnAQrBQlBMnAMlASfBQvAUhB]lCOfAIj@Il@OdAQhAIh@O|@UpASfA_@|BSbAO~@Kf@Ox@SbAIb@On@?@MRYrAIXk@fCu@bDCHm@dCWfAWhAOr@UdAS`AUjAIb@Id@I`@G`@I\\Ih@Kf@Gd@Mv@Mr@Kn@QlAObAGb@QpAS|AQpAK`AEXCVIl@APIn@Gp@Eb@EVIz@C^Ef@E^Eh@Cf@ANKxAAHEn@AJGbAEb@Ej@GlAEd@Cf@?HC^Cd@Gz@EfACn@C^Cj@Cj@A`@Cj@Cd@GvBAb@Cn@CdAAn@Ad@EpAAf@EnACpAAd@CnACpACtACbA?JG|CE|CAp@AVIxGAt@Ad@ArAC`DArAAb@?BAvBC|CAfB?J?h@?LCvDAdD?xBAhE?`A@t@?L?hB@hA@vA?j@BzABhBBhABh@@j@FtBDpAFpAFnAFlAFnAHlADf@HlADf@Bb@Dh@Fj@HfADf@J~@Fr@LfALfAJz@@NL|@NjATbBRtA\\fCN`ABNv@xFVtBPtAPbBRrBLnADl@JhAPpBFhAF~@LnBBTBh@B`@D`AHhBDfADbAF|BB|@B`ADrC@j@DdD?rA@pB?nA?nAAtB?HCrBCxBEbCIvBAZEdBEhAGfAQzDItAG~@InAEn@YxDYtDGr@Gr@KtAKnAKvAQlCAR?@G~@?@MtBMpCK~BAJA\\AJKxCA\\A\\C~@AVEvACnAEdBAf@EnCArBCdA?d@Ax@A|AE~GCjBAbBA`CA~@E~ECfC?NKxIClCAfAAr@EbDC`DC|@GzEG~DAxAE`BQjLAh@CnAEzBOrHIhDIxCEbAA^QlECr@O~DWzEAXCf@KhBIzACd@CXItAEl@G`A?BG|@Ef@KxAG~@E`@C^ATAJ?BGz@]bE?DWbDKnA?@IlAInAC`@Cd@IrACf@CZA`@CTErAAf@EjBAj@ChAApAA`C?F?zA?~A?j@BxA@\\@bABlA?DH~BNnDLvBDz@@JP~BNrB@XP~BTnCT|CDZRhCPnBJlAH|@N|ATlCBRVnCP|A@DNxAHx@PtA@NHl@LfAL~@TdBPtAXnB@J`@jCRvABPX`BBP`@|BJp@Lp@Lp@X~ADPJf@Jb@`@tBLr@VfAPx@\\~A\\bBRz@f@bCLl@j@nCRdARdAVpAPz@N|@@B^vB@@PbANx@BN\\tBZbBF`@RnA\\rBNz@Hh@Hj@Lt@j@~DLz@XlBFb@Z|BL~@b@pDXrBTvBPxAFh@^bDDXFr@Hp@Hr@Ht@Df@@LBP`@bEFr@JlALjABXPtBBNB`@Fp@JtAFp@Fv@JvAFn@Dt@BPBf@D^@NHnAB\\Db@HnADf@F~@Dt@JrALdBD`@FdAH`ABZDh@Ft@Hv@Dj@JhA?DD^Dh@Dh@D^Dd@RrBDd@?@Ff@RrBFp@BVFf@Db@Fd@@LJ`AFd@LjA?DLbALjABPBVNfAD^Fl@NjA@BLdANjABRBRFd@Fd@Fb@F`@?BFb@Hh@D\\Hf@Fd@Lx@BTPdAD^RnALz@PpARpAh@vD@FBLPrAVdBBTLv@PtAJx@DRL|@PvA@HD\\F`@NhA@LL|@LfAVpBBVHn@TlB@FNpALhAF^?BFf@J|@LnAHp@JbARbBNtA@HDb@D`@`@|DRrBRnBXtCNbBXxCPlB?BVxCX|CDd@\\vEBP?BTfD@VDh@FlAJtBN`DDpADhA@V@TDtBF|CD|B@d@@nA@lA@nA?tA?vB?f@?nB?DApAArAApACjAAh@ClACnAGzBA`@?HEhAIvBGvBIxBCh@IlB?BCj@S|D?JAJStDCb@IrAMrBMtBOrBOrBInAAJOhBIjAW|CMrAOdBMtAOzAM|AKjAQ|BEf@IfAEh@Cd@MtBGlACb@IxACb@IpBCl@Ab@Cd@EnAAf@Ad@E|AAn@Cz@Av@CpAA|@Az@?h@AnAApA?tBArC?bC?~@At@?lA?LAhACvBCvBAf@?FCrBEpAClAAf@Aj@EhAAh@Cf@Af@Cj@GpBCh@KxBGjAInAKvBEf@Ch@IlAIhAEb@Cd@ADIhAEj@Ed@M`BIx@QnBKfA?BKnAGh@KjAIlAEb@Ef@IjAIhAKrACd@IpACd@IlACf@Ch@Cb@Cd@KrBCj@EjACj@EpAEbAAn@GvBCpAEpBAPCdBEtAAdAAJ?JAXGzCAj@Ad@GvBG`DAf@Cj@EtBGhB?NK~CExAAVAj@G|ASfGc@rKI~BWvFGfACt@EpAA`@Ch@CvA?@?d@Ab@?f@Ad@?h@?b@@nA@pA@d@?FBdA@h@Bd@?DBb@Bf@@b@B^Dl@Bh@Df@JzARlCHx@Dt@Dj@Db@Bf@Bf@Bd@Df@Bh@B|@B`@@^?ZBj@?Z@V?`A@tA?R?@?`@Af@Af@AjAAd@A^Ah@APCx@Cd@Cd@Ef@Ch@Eb@Ef@Ed@Ef@Gd@Ed@Gd@G`@?@Gd@If@G`@Id@G\\Kh@I^Mn@On@Qx@CHGRKb@K\\M`@K\\M^M\\M^M\\M\\M\\OZO\\OZOZOZOXSb@S\\GJ[h@?@EFQZINU^GJw@nAGF{A|BuArBW^U\\Yb@iDbFIJ]h@a@j@ILU\\U\\aBfCILQXQVQXQXA@MRc@v@OVS\\ONINQ^QXOZOXKRCFKTQ`@OX[r@OZQ^[v@KTQb@]x@a@~@O\\KTMZ{@hBMRKRINU`@Wd@Yd@OXMTc@r@QXMV_@t@[n@Wj@KRABMZMZQd@IPGPCFM^c@nACLk@hB"
+                    },
+                    "start_location": {
+                        "lat": 57.71113519999999,
+                        "lng": 12.8631616
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "3.8 km",
+                        "value": 3816
+                    },
+                    "duration": {
+                        "text": "3 mins",
+                        "value": 200
+                    },
+                    "end_location": {
+                        "lat": 57.71828199999999,
+                        "lng": 11.9921174
+                    },
+                    "html_instructions": "Take the exit onto <b>E20</b>/<wbr/><b>E6</b> toward <b>Oslo</b>/<wbr/><b>E45</b>/<wbr/><b>Centrum</b><div style=\"font-size:0.9em\">Continue to follow E6</div><div style=\"font-size:0.9em\">Toll road</div>",
+                    "maneuver": "ramp",
+                    "polyline": {
+                        "points": "_cb_J_ihhASp@a@xAKd@Mf@GXI\\Kf@Kf@AFMn@Mx@GZCRMbAE^E^CRC`@AH]vDCVCVAPCLAPCVADAHCPEVETETGVI`@Mb@IVIVIXUh@Qb@Sd@GHIPQ^EHQZOTOVMPKP_@d@UZQRQRKJUVKHONURQNMJEBUPg@\\g@Zc@TCBA@GTuBx@o@XMDMFiAb@IBSJUHMD[Lc@NYJi@RSHUFSFIBKBi@Lg@Lo@L{@Tc@NUHUHQH_@Pk@XULQJq@\\i@Tu@Xc@LWHo@LKBYDa@F_BNgAHc@BgAHmAHa@DU@GASBI@]BE@c@BE?WBk@DeAHw@Dg@DO?K@O?O?WAYA_@CWEc@GOCOC_BYc@IIAYEi@Kk@Gk@Iu@Oi@GAA_@Ge@IYGICUG]I]IKE}@QKCq@OUEOCa@IOCOECAWEa@KE?KCSIeBa@A?IGaBa@o@Oy@Sm@Oc@K[GA?WEOCWCWAQ?S@A?U@QBC@SDSFQHUJQLULMHGFEDA@QTGHKPCDQXOZMVOXIRq@xAKNGJCDCBKNEFMLEDIFa@X?@GBGBC@IBKDOBKBK@G@C?A?E?G?A?WAUAICIAcAKA?UAUAE?M@OBI@E@G@UHi@ZGFUP]Z}@z@CBQPOLIHIDIHSNMJYR_@TSJm@\\UNk@ZUNYPMJc@Za@ZKHWTOL"
+                    },
+                    "start_location": {
+                        "lat": 57.68767740000001,
+                        "lng": 12.0079972
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "4.7 km",
+                        "value": 4701
+                    },
+                    "duration": {
+                        "text": "4 mins",
+                        "value": 260
+                    },
+                    "end_location": {
+                        "lat": 57.69987039999999,
+                        "lng": 11.9329028
+                    },
+                    "html_instructions": "Take the exit onto <b>E45</b> toward <b>Centrum</b><div style=\"font-size:0.9em\">Toll road</div>",
+                    "maneuver": "ramp-right",
+                    "polyline": {
+                        "points": "gbh_JweehAIGGFQLKJA@GBAB_@XA@MJs@l@QLCBIDEBC@GBE@G@E@QBIGC?MGAAIGGGEGGMCICKAEAGCOCM?IAK?I@I?E@G?GBI@IBG@EDEFGFCD?DAF?DBD@HHDD?@DDDFBHBBDP@BHVJ\\Lh@H^Jn@Fh@BTFj@B^@VDr@?DFrA?JBV@ZD^D\\@JBRHd@Jd@Jd@HXH\\Pz@H`@N~@^rALj@rBlLh@zBx@dDZjA?@@@PJd@jBDN@FPn@@HFTDPHZBD?@Lh@HZRt@Rv@Nj@b@bBJ`@J^Lb@J^l@nBV|@hAjEb@xAf@dB\\lA\\hAPn@Nn@HXHV\\nA\\nAT~@T|@HZHZ^nAVdAXbAT|@`@zAZjAJ^Rv@Tt@FVb@bB|@bDDPFRPp@T~@J`@DNJ^FT\\pABHFXPn@Tv@DL@DJZN`@LZDLFNFLFNHNFNJTHNBD@DFJNVRZRZLRLPR\\\\b@p@d@|@p@dAl@FBB?\\NB@NDt@Rb@HnCn@n@PPFVHTJTJHBFBFBHDVLHDHFLFLHLHNJ@@LHNLRPb@\\VTPPNPz@~@NTHJRXHL?@j@fAn@hADJHLLZFLFJFPLXRf@DHL^JXN`@HVJ\\JZLb@L^XhARv@VfAXrAFTH`@DXJf@Jp@D\\Fd@Hh@BXBXDZ?FD^@H@RBRBf@@XDf@Bf@@V?@@NBf@@F?@FdABh@HpAFbABd@F`A?FLzBF`ABb@Dv@Dr@Dx@Dz@RxC@X@JDf@Bb@@XBTD|@Bd@D`ABb@H~ALjCDz@Dx@HhBB`@H~ADnAFnAFnABf@Bd@@b@?L@^@Z@r@@nA@lA?j@BpA@hA@l@?T@L@j@@d@Bd@Bf@Df@FfAPhCHvA@T@f@JhEDdB@^B~ABb@@n@FfA"
+                    },
+                    "start_location": {
+                        "lat": 57.71828199999999,
+                        "lng": 11.9921174
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.2 km",
+                        "value": 210
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 22
+                    },
+                    "end_location": {
+                        "lat": 57.6991397,
+                        "lng": 11.9297766
+                    },
+                    "html_instructions": "Take the ramp to <b>Majorna</b>",
+                    "maneuver": "ramp-right",
+                    "polyline": {
+                        "points": "eod_JssygACNAB?@D|@@T@RB`@@ZBRB\\BR@NDVF`@?@BLDTDX@DFZDNBLFRFVFJDNL^J\\N\\"
+                    },
+                    "start_location": {
+                        "lat": 57.69987039999999,
+                        "lng": 11.9329028
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "67 m",
+                        "value": 67
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 13
+                    },
+                    "end_location": {
+                        "lat": 57.6987069,
+                        "lng": 11.9302189
+                    },
+                    "html_instructions": "Turn <b>left</b> onto <b>Djurg\u00e5rdsgatan</b>/<wbr/><b>E45</b>",
+                    "maneuver": "turn-left",
+                    "polyline": {
+                        "points": "sjd_Jc`ygAH`@Vi@LUJSXe@"
+                    },
+                    "start_location": {
+                        "lat": 57.6991397,
+                        "lng": 11.9297766
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.4 km",
+                        "value": 410
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 33
+                    },
+                    "end_location": {
+                        "lat": 57.70001920000001,
+                        "lng": 11.9364117
+                    },
+                    "html_instructions": "Turn <b>left</b> to merge onto <b>Oscarsleden</b>/<wbr/><b>E45</b> toward <b>E20</b>/<wbr/><b>Stockholm</b>/<wbr/><b>Karlstad</b>/<wbr/><b>Route 40</b>/<wbr/><b>Flygplats</b>/<wbr/><b>Centrum</b><div style=\"font-size:0.9em\">Toll road</div>",
+                    "maneuver": "ramp-left",
+                    "polyline": {
+                        "points": "}gd_J{bygAK[IWMWMWCGGQWq@K[Qg@Oi@I_@I_@Ic@Ia@EUEW?EGe@CQIk@EOIWA[AWCi@?CGeCAq@KiE?a@A[GoA"
+                    },
+                    "start_location": {
+                        "lat": 57.6987069,
+                        "lng": 11.9302189
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.2 km",
+                        "value": 238
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 30
+                    },
+                    "end_location": {
+                        "lat": 57.6996244,
+                        "lng": 11.9402951
+                    },
+                    "html_instructions": "Take the exit toward <b>Masthuggstorget</b>",
+                    "maneuver": "ramp-right",
+                    "polyline": {
+                        "points": "cpd_JqizgADa@?IAM?K?I?C@Q@I@GBI?ADI@MBQF_ANeDBo@NgBHsB@[?a@?IAa@"
+                    },
+                    "start_location": {
+                        "lat": 57.70001920000001,
+                        "lng": 11.9364117
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "40 m",
+                        "value": 40
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 8
+                    },
+                    "end_location": {
+                        "lat": 57.69927099999999,
+                        "lng": 11.9404313
+                    },
+                    "html_instructions": "Turn <b>right</b> onto <b>Johannesplatsen</b>",
+                    "maneuver": "turn-right",
+                    "polyline": {
+                        "points": "smd_J{a{gALEv@S"
+                    },
+                    "start_location": {
+                        "lat": 57.6996244,
+                        "lng": 11.9402951
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.4 km",
+                        "value": 389
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 77
+                    },
+                    "end_location": {
+                        "lat": 57.6995997,
+                        "lng": 11.9461557
+                    },
+                    "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto <b>F\u00f6rsta L\u00e5nggatan</b>",
+                    "maneuver": "roundabout-right",
+                    "polyline": {
+                        "points": "mkd_Jub{gA@F@D@FBB@B@@B@B@@?B?B?@ABA@ABC@C@C@E@E?E@G?G?EAIAIACAEACACAACC?y@I{B?EUeE?SGcAEaAGcAK{BCu@AUQsCK{B"
+                    },
+                    "start_location": {
+                        "lat": 57.69927099999999,
+                        "lng": 11.9404313
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "92 m",
+                        "value": 92
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 18
+                    },
+                    "end_location": {
+                        "lat": 57.70022099999999,
+                        "lng": 11.9460471
+                    },
+                    "html_instructions": "At the roundabout, take the <b>3rd</b> exit onto <b>V\u00e4rmlandsgatan</b>",
+                    "maneuver": "roundabout-right",
+                    "polyline": {
+                        "points": "omd_Jof|gA@E?G?IAICGCEAACAAAA?E@CBCBCHAH?H?FM@w@ROD"
+                    },
+                    "start_location": {
+                        "lat": 57.6995997,
+                        "lng": 11.9461557
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "0.2 km",
+                        "value": 171
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 25
+                    },
+                    "end_location": {
+                        "lat": 57.69994469999999,
+                        "lng": 11.9432247
+                    },
+                    "html_instructions": "Turn <b>left</b> onto <b>Masthamnsgatan</b>",
+                    "maneuver": "turn-left",
+                    "polyline": {
+                        "points": "kqd_Jye|gA?XPhCd@pK"
+                    },
+                    "start_location": {
+                        "lat": 57.70022099999999,
+                        "lng": 11.9460471
+                    },
+                    "travel_mode": "DRIVING"
+                },
+                {
+                    "distance": {
+                        "text": "42 m",
+                        "value": 42
+                    },
+                    "duration": {
+                        "text": "1 min",
+                        "value": 6
+                    },
+                    "end_location": {
+                        "lat": 57.70031650000001,
+                        "lng": 11.9431225
+                    },
+                    "html_instructions": "Turn <b>right</b> onto <b>\u00d6stra S\u00e4nkverksgatan</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                    "maneuver": "turn-right",
+                    "polyline": {
+                        "points": "sod_Jct{gAkAR"
+                    },
+                    "start_location": {
+                        "lat": 57.69994469999999,
+                        "lng": 11.9432247
+                    },
+                    "travel_mode": "DRIVING"
+                }
+            ],
+            "traffic_speed_entry": [],
+            "via_waypoint": []
+        }
+    ],
+    "overview_polyline": {
+        "points": "ypg_Jk_lmAl@NBeBNqDdAeNlA_MdDcV|@qHP_HMcFw@mHgDwNeA_FaBaKD_Cp@uB`CkD|@m@fACvEh@zAZRRj@xAd@fEJbBr@|Pb@rP\\fXd@pRdAfOj@fFbDfRdCpJlCvHrEnK~FfMtHzP`IjSzMja@rGrUvHh[rIpc@pCpPdGh]zJ~c@bOzl@vFnVpDxR~Er\\nEza@pAtO~ApXhAxb@NdZHfi@p@z[tBta@xCfc@fBhf@^bi@BhZZxRdAfWrApRjB|Q`CjQvHnf@pC|XbC|e@zBvZvAfMhC~PrG`_@fEh]jDpd@zAd^v@pj@Uxg@eAp_@wAfb@?b_@d@|Qt@dNvBxUjDxUbHzb@xCvXbBhUpCbr@hCx]rIpr@jFta@tB`Wx@vRTdTI|McAl[uBhXcD`ZqCzSeEhWoIne@cNzq@yI|e@gD|UkBnRsAjUe@hOObTR`[LzR[`XcAtUgCxYwDna@mAz\\?b`@n@`TfAhQbBzPlJbs@hBlSlAjRn@bOt@j_@Pje@fAt[|AvRlGve@zBhSjAtQl@zSD~Sg@l]gBhg@kDpg@yCd\\gN`sAqJxw@oL~}@mH~q@iChZ}Bde@oAzc@w@bNyAnQkCfTyCrQgBnI}Ipa@gE|YcBvRiAjS{@x[u@dj@Itn@^xQ~@jPbAdL`C~QhD~XhAbPn@vQL`Ye@~ToBh[}Bh_@e@zPWnYeAlcA_Azh@qAt\\gBnY{Bj\\[fQJxNpAhVvBjXzE|c@vGl`@lJje@`H`c@rFfe@bDt_@`Fzn@jGri@vKdx@fDjZpGrt@x@xQZzVIxQc@pPw@bS_BjW_Ebg@sAn^Yph@eAh^_Ch\\aCh\\qAza@gA|d@cCtr@ZvShBpY?lQoA`QaA~FaBzGsE`LwK|PgOdUuCbFyBvEgD~HuDjHuDfHqA`DqD`MoAtG}AxO_AjEsB`FgCxDiChCcDvB}BnA}@^uBz@qE~AkG~AcF`C{CfAwB^aLv@oDXyFTyG_AoM_CoLgCeIqB_CMmCx@yAxAkCjF_AhA{Ar@u@FsDY{Bp@iD~CqD~BqEzCq@ZYT{BjB_Ad@e@Aa@Ya@wADiAb@i@n@Zx@jCt@fHZbFtAzGpDlR~BnJ~@hCT`AfAfErL~b@tI~[vGzVrCrHlCbEbFzCrIvBpB|@bBhAfEjEdFhKrBzGtB~JdA`MvDnr@jAp[LrKt@zMp@nXnAzHf@xAX~@d@_Ad@y@Us@g@iAmBeHq@_Ec@eUTyAv@yPJg@x@KHTX@Ng@Ks@iBca@Qo@Uf@uAb@PbDd@pKkAR"
+    },
+    "summary": "Route 40",
+    "warnings": [],
+    "waypoint_order": []
+}
