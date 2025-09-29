@@ -17,8 +17,14 @@ dependencies = [
     "uvicorn>=0.35.0",
     "xgboost>=3.0.5",
 ]
+
+# INSTRUCTION 1: "Find my code packages in the 'src' directory."
 [tool.setuptools.packages.find]
 where = ["src"]
+
+# INSTRUCTION 2: "Also, make sure to include these specific data files."
+[tool.setuptools.package-data]
+taxipred = ["data/*", "backend/models/*"]
 
 [build-system]
 requires = ["setuptools>=64", "wheel"]
