@@ -92,4 +92,4 @@ def prepare_features(input_data: UserInput) -> pd.DataFrame:
 
     df = pd.DataFrame([feature_dict])
 
-    return df
+    return df, trip_info, weather

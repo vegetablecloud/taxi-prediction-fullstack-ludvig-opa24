@@ -7,5 +7,10 @@ def read_api_endpoint(endpoint = "/", base_url = "http://api:8000"):
     
     return response
 
+def post_api_endpoint(endpoint = "/", base_url = "http://api:8000", json = None):
+    url = urljoin(base_url, endpoint)
+    response = requests.post(url, json=json)
+    return response
+
 # TODO:
 # post_api_endpoint
