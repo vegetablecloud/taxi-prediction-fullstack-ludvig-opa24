@@ -35,3 +35,4 @@ async def predict_taxi_price(input: UserInput):
         "weather": weather
     }
     
+# Version 2
