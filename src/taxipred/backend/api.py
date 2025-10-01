@@ -14,6 +14,16 @@ taxi_data = TaxiData()
 async def root():
     return {"Hello": "World"}
 
+@app.get("/debug/view-code")
+def view_own_code():
+    try:
+        with open(__file__, "r") as f:
+            content = f.read()
+        return {"file_content": content}
+    except Exception as e:
+        return {"error": str(e)}
+
+
 @app.get("/taxi/")
 async def read_taxi_data():
     return taxi_data.to_json()
