@@ -8,4 +8,4 @@ COPY . .
 
 RUN uv pip install --system -e .
 
-CMD ["uvicorn", "taxipred.backend.api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ls -R && echo "--- Innehåll i api.py ---" && cat src/taxipred/backend/api.py
