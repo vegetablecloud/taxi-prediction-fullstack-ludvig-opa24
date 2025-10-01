@@ -1,5 +1,7 @@
 import streamlit as st
 import datetime
+import base64
+from pathlib import Path
 from taxipred.utils.helpers import post_api_endpoint
 
 # Helper function to select an icon based on the weather description
@@ -18,6 +20,20 @@ def get_weather_icon(weather_text: str) -> str:
 
 # --- App Layout ---
 st.set_page_config(page_title="Taxi Fare Predictor", page_icon="🚕", layout="centered")
+bg_image = Path(__file__).resolve().parent / "images" / "background.jpg"
+encoded_bg = base64.b64encode(bg_image.read_bytes()).decode()
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url('data:image/jpeg;base64,{encoded_bg}');
+        background-size: cover;
+        background-position: center;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.markdown("<h1 style='text-align: center;'>🚕 Taxi Fare Predictor</h1>", unsafe_allow_html=True)
 
 with st.container(border=True):
