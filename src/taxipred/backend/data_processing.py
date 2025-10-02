@@ -20,10 +20,10 @@ class TaxiData:
         return json.loads(self.df.to_json(orient = "records"))
     
 class UserInput(BaseModel):
-    pickup: str
-    destination: str
-    nr_passengers: int = Field(gt=0, lt=5)
-    date: datetime
+    pickup: str = Field(examples=["Dunderbergsvägen 2 Sjömarken Borås"])
+    destination: str = Field(examples=["Övre kvarngatan 32 Borås"])
+    nr_passengers: int = Field(gt=0, lt=5, examples=[3])
+    date: datetime = Field(examples=["2025-12-20T15:30:00"])
 
 def retrieve_google_direction_results(input_data: UserInput):
     """
