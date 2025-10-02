@@ -30,13 +30,21 @@ st.markdown(
         background-size: cover;
         background-position: center;
     }}
+    /* Styling for all containers inside the main section */
+        div.stVerticalBlock {{
+        backdrop-filter: blur(5px);
+    }}
+    /* Header styling */
+        header.stAppHeader {{
+            display: none !important;
+        }}
     </style>
     """,
     unsafe_allow_html=True,
 )
-st.markdown("<h1 style='text-align: center;'>🚕 Taxi Fare Predictor</h1>", unsafe_allow_html=True)
 
 with st.container(border=True):
+    st.markdown("<h1 style='text-align: center;'>🚕 Taxi Fare Predictor</h1>", unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
         pickup = st.text_input("📍 Pickup location", value="NBI handelsakdemin Västra Frölunda")
@@ -52,7 +60,7 @@ with st.container(border=True):
         time = st.time_input("🕒 Time", datetime.datetime.now().time())
 
     # Prediction logic
-    if st.button("Predict Fare"):
+    if st.button("Predict Fare", type="primary", use_container_width=True):
         with st.spinner('Calculating fare...'):
             datetime_str = f"{date} {time.strftime('%H:%M:%S')}"
             user_input = {
