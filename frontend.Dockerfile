@@ -1,11 +1,10 @@
 FROM python:3.11-slim
-
 WORKDIR /app
-
 RUN pip install uv
 
-COPY . .
+COPY pyproject.toml uv.lock ./
+RUN uv sync --system
 
-RUN uv pip install --system -e .
+COPY . .
 
 CMD ["streamlit", "run", "src/taxipred/frontend/dashboard.py", "--server.port", "8501", "--server.address", "0.0.0.0"]

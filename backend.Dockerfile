@@ -1,11 +1,10 @@
 FROM python:3.11-slim
-
 WORKDIR /app
-
 RUN pip install uv
 
-COPY . .
+COPY pyproject.toml uv.lock ./
+RUN uv sync --system
 
-RUN uv pip install --system -e .
+COPY . .
 
 CMD ["uvicorn", "taxipred.backend.api:app", "--host", "0.0.0.0", "--port", "8000"]
