@@ -1,4 +1,4 @@
-from taxipred.backend.data_processing import prepare_features, UserInput, TaxiData
+from taxipred.backend.data_processing import prepare_features, UserInput
 from fastapi import FastAPI
 import joblib
 import xgboost as xgb
@@ -7,9 +7,6 @@ from pathlib import Path
 TAXI_ML_PATH = Path(__file__).parents[0] / "models"
 
 app = FastAPI()
-
-taxi_data = TaxiData()
-
 
 @app.get("/")
 async def root():
@@ -28,7 +25,7 @@ def view_own_code():
 
 @app.get("/taxi/")
 async def read_taxi_data():
-    return taxi_data.to_json()
+    return {"Hello": "Taxis"}
 
 
 @app.post("/predict")
