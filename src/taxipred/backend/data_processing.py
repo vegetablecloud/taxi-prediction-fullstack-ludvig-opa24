@@ -1,5 +1,4 @@
 import pandas as pd
-import json
 from pydantic import BaseModel, Field
 from datetime import datetime
 import googlemaps
@@ -9,6 +8,7 @@ from dotenv import load_dotenv
 import requests
 
 load_dotenv()
+
 
 class UserInput(BaseModel):
     pickup: str = Field(examples=["Dunderbergsvägen 2 Sjömarken Borås"])

@@ -8,6 +8,7 @@ TAXI_ML_PATH = Path(__file__).parents[0] / "models"
 
 app = FastAPI()
 
+
 @app.get("/")
 async def root():
     return {"Hello": "World"}
