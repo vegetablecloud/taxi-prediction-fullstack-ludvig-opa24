@@ -4,6 +4,7 @@ import base64
 from pathlib import Path
 from taxipred.utils.helpers import post_api_endpoint
 
+
 # Helper function to select an icon based on the weather description
 def get_weather_icon(weather_text: str) -> str:
     """Returns a weather emoji based on keywords in the weather description."""
@@ -16,7 +17,8 @@ def get_weather_icon(weather_text: str) -> str:
         return "☀️"
     if "cloud" in weather or "overcast" in weather:
         return "☁️"
-    return "❓" # Default icon
+    return "❓"  # Default icon
+
 
 # --- App Layout ---
 st.set_page_config(page_title="Taxi Fare Predictor", page_icon="🚕", layout="centered")
@@ -44,10 +46,15 @@ st.markdown(
 )
 
 with st.container(border=True):
-    st.markdown("<h1 style='text-align: center;'>🚕 Taxi Fare Predictor</h1>", unsafe_allow_html=True)
+    st.markdown(
+        "<h1 style='text-align: center;'>🚕 Taxi Fare Predictor</h1>",
+        unsafe_allow_html=True,
+    )
     col1, col2 = st.columns(2)
     with col1:
-        pickup = st.text_input("📍 Pickup location", value="NBI handelsakdemin Västra Frölunda")
+        pickup = st.text_input(
+            "📍 Pickup location", value="NBI handelsakdemin Västra Frölunda"
+        )
     with col2:
         destination = st.text_input("🏁 Destination", value="Nordstan Göteborg")
 
@@ -61,11 +68,13 @@ with st.container(border=True):
 
     # Prediction logic
     if st.button("Predict Fare", type="primary", use_container_width=True):
-        with st.spinner('Calculating fare...'):
+        with st.spinner("Calculating fare..."):
             datetime_str = f"{date} {time.strftime('%H:%M:%S')}"
             user_input = {
-                "pickup": pickup, "destination": destination,
-                "nr_passengers": nr_passengers, "date": datetime_str
+                "pickup": pickup,
+                "destination": destination,
+                "nr_passengers": nr_passengers,
+                "date": datetime_str,
             }
             response = post_api_endpoint("/predict", json=user_input)
 
@@ -76,19 +85,28 @@ with st.container(border=True):
                 weather = api_data.get("weather", "")
 
                 # Display the main prediction with custom markdown for better styling
-                st.markdown(f"""
+                st.markdown(
+                    f"""
                 <div style="text-align: center; margin-top: 1rem;">
                     <p style="font-size: 1.1rem; color: grey;">Predicted Fare</p>
                     <p style="font-size: 2.2rem; font-weight: bold;">${predicted_price:.2f}</p>
                 </div>
-                """, unsafe_allow_html=True)
-                
+                """,
+                    unsafe_allow_html=True,
+                )
+
                 st.divider()
 
                 # Display trip details in columns
                 res_col1, res_col2, res_col3 = st.columns(3)
-                res_col1.metric("Distance", trip_info.get('distance', {}).get('text', 'N/A'))
-                res_col2.metric("Duration", trip_info.get('duration', {}).get('text', 'N/A'))
-                res_col3.metric("Weather", get_weather_icon(weather), help=weather.capitalize())
+                res_col1.metric(
+                    "Distance", trip_info.get("distance", {}).get("text", "N/A")
+                )
+                res_col2.metric(
+                    "Duration", trip_info.get("duration", {}).get("text", "N/A")
+                )
+                res_col3.metric(
+                    "Weather", get_weather_icon(weather), help=weather.capitalize()
+                )
             else:
                 st.error(f"Error fetching prediction: {response.text}")

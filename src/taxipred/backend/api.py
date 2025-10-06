@@ -10,9 +10,11 @@ app = FastAPI()
 
 taxi_data = TaxiData()
 
+
 @app.get("/")
 async def root():
     return {"Hello": "World"}
+
 
 @app.get("/debug/view-code")
 def view_own_code():
@@ -28,13 +30,15 @@ def view_own_code():
 async def read_taxi_data():
     return taxi_data.to_json()
 
+
 @app.post("/predict")
 async def predict_taxi_price(input: UserInput):
-
     df, trip_info, weather = prepare_features(input_data=input)
     # Retrived the trained XGB model.
-    model: xgb.XGBRegressor = joblib.load(TAXI_ML_PATH / "broad_responsible_xgb_model.joblib")
-    
+    model: xgb.XGBRegressor = joblib.load(
+        TAXI_ML_PATH / "broad_responsible_xgb_model.joblib"
+    )
+
     # Predict with the user input values
     y_pred = model.predict(df)
 
@@ -42,7 +46,8 @@ async def predict_taxi_price(input: UserInput):
     return {
         "predicted_price": float(y_pred[0]),
         "trip_info": trip_info,
-        "weather": weather
+        "weather": weather,
     }
-    
+
+
 # Version 2
