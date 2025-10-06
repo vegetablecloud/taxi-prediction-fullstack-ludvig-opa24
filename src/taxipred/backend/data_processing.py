@@ -3,12 +3,10 @@ import pandas as pd
 import json
 from pydantic import BaseModel, Field
 from datetime import datetime
-import pandas as pd
 import googlemaps
 from googlemaps.directions import directions
 import os
 from dotenv import load_dotenv
-import json
 import requests
 load_dotenv()
 
