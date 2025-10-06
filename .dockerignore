@@ -87,3 +87,22 @@ venv/
 
 # VS Code
 .vscode/
+
+# Data and notebooks
+data/
+**/*.csv
+**/*.parquet
+**/*.feather
+**/*.jsonl
+**/*.pkl
+notebooks/
+**/*.ipynb
+
+# Build and testartefacts
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor/OS
+.DS_Store
