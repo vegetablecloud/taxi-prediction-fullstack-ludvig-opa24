@@ -1,0 +1,31 @@
+# The name of our workflow, will be shown in Github
+name: CI
+
+# Trigger , "on", keyword tells this yml file as a action it will look for keywords. It means when things happen.
+on:
+  # push will trigger this (but you should actually never push to main, only PRs..)
+  push:
+    branches: [ "main" ]
+  # pr will trigger this
+  pull_request:
+    branches: [ "main" ]
+
+# This is what should happen . Above, we have defined what will trigger. Below is what jobs will happen.
+jobs:
+  lint: # The name of the job, lint is more than what the intellisence does, it checks that you have good code qualtiy also.
+    runs-on: ubuntu-latest # This tells that lint should run on ubuntu latest which means, it creates a very basic standard container that github will create and run this yml file on? 
+
+    steps: # Here will be the lint steps i guess? Here is ruff coming in i guess? Not sure exactly what to do here yet.
+      # Step 1: Fetch the code from repository
+      - name: Check out repository
+        uses: actions/checkout@v5 # v5 is apparently the newest updated checkout mechanism on how it fetches the code from repo..
+      # Step 2: Set up the correct Python version (Now we have manually wrote it in docker file, uv init AND here. IMportant that we the same enviorment in all places. Feels a bit redundant but ok. )
+      - name: Set up Python
+        uses: actions/setup-python@v6 # An action that fetches the python enviroment and sets it
+        with:
+          python-version: '3.11' # Tells its python 3.11. Same as dockerfile and .python-version file.
+      # Step 3: Install project dependencies including dev tools
+      - name: Install dependencies
+        run: |
+          pip install uv
+          uv sync --all-extras
