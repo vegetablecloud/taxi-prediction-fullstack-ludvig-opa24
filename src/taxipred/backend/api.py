@@ -3,22 +3,18 @@ from fastapi import FastAPI
 import joblib
 import xgboost as xgb
 from pathlib import Path
-from fastapi_mcp import FastApiMCP
+from fastmcp import FastMCP
 
 TAXI_ML_PATH = Path(__file__).parents[0] / "models"
 
-app = FastAPI()
+fast_app = FastAPI()
 
-mcp = FastApiMCP(app)
-mcp.mount()
-
-
-@app.get("/")
+@fast_app.get("/")
 async def root():
     return {"Hello": "World"}
 
 
-@app.get("/debug/view-code")
+@fast_app.get("/debug/view-code")
 def view_own_code():
     try:
         with open(__file__, "r") as f:
@@ -28,12 +24,12 @@ def view_own_code():
         return {"error": str(e)}
 
 
-@app.get("/taxi/")
+@fast_app.get("/taxi/")
 async def read_taxi_data():
     return {"Hello": "Taxis"}
 
 
-@app.post("/predict")
+@fast_app.post("/predict", operation_id="predict_taxi_price")
 async def predict_taxi_price(input: UserInput):
     df, trip_info, weather = prepare_features(input_data=input)
     # Retrived the trained XGB model.
@@ -52,4 +48,17 @@ async def predict_taxi_price(input: UserInput):
     }
 
 
-# Version 2
+mcp = FastMCP.from_fastapi(app=fast_app, name="Taxi Price Predictor")
+
+mcp_app = mcp.http_app(path='/mcp')
+
+fast_app.mount("/mcp", mcp_app)
+
+app = FastAPI(
+    title="Taxi API with MCP",
+    lifespan=mcp_app.lifespan,
+    routes=[
+        *fast_app.routes,
+        *mcp_app.routes,
+    ],
+)
