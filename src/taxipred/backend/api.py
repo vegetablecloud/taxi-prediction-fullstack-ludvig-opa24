@@ -3,10 +3,14 @@ from fastapi import FastAPI
 import joblib
 import xgboost as xgb
 from pathlib import Path
+from fastapi_mcp import FastApiMCP
 
 TAXI_ML_PATH = Path(__file__).parents[0] / "models"
 
 app = FastAPI()
+
+mcp = FastApiMCP(app)
+mcp.mount()
 
 
 @app.get("/")
