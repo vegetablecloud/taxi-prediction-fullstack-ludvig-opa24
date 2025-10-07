@@ -33,7 +33,7 @@ async def read_taxi_data():
     return {"Hello": "Taxis"}
 
 
-"""@app.post("/predict")
+@app.post("/predict")
 async def predict_taxi_price(input: UserInput):
     df, trip_info, weather = prepare_features(input_data=input)
     # Retrived the trained XGB model.
@@ -49,7 +49,7 @@ async def predict_taxi_price(input: UserInput):
         "predicted_price": float(y_pred[0]),
         "trip_info": trip_info,
         "weather": weather,
-    }"""
+    }
 
 
 # Version 2
